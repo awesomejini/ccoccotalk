@@ -1,0 +1,124 @@
+.chatroom-top-wrap {
+  margin-top: -60px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.chatroom-top-wrap .prevBtn {
+  cursor: pointer;
+}
+
+.chatroom-top-wrap .prevBtn img {
+  width: 8%;
+  padding: 10px 0;
+}
+
+.chatroom-top-wrap .chat-title {
+  flex-grow: 1;
+}
+
+
+.chatroom-top-wrap .ul-row {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #0f0f0f;
+}
+
+.chatroom-top-wrap .li-row {
+  text-align: right;
+  font-size: 14px;
+}
+
+.chatroom-top-wrap .li-row:nth-child(2) {
+  display: inline-block;
+  width: 70%;
+  flex-grow: 1;
+  text-align: left;
+  font-weight: bolder;
+  padding-left: 20px;
+
+}
+
+.chatroom-top-wrap .li-row:nth-child(3),
+.chatroom-top-wrap .li-row:nth-child(4) {
+  flex-grow: 1;
+}
+
+.chatroom-content {
+  width: 100%;
+  background: #0f0f0f;
+}
+
+.chatroom-content .chat-box {
+  width: 100%;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatroom-content .chat-box div {
+  max-width: 70%;
+  padding: 0.5rem;
+  background: rgb(232, 232, 74);
+  color: black;
+  word-wrap: break-word;
+  border-radius: 0.8rem; 
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.chatroom-content .chat-box div::before {
+  content: '';
+  width: 1rem;
+  height: 0.7rem;
+  background: rgb(232, 232, 74);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.chatroom-content form {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.chatroom-content form input {
+  flex-grow: 1;
+  padding: 1.5rem;
+  background: #0f0f0f;
+  color: white;
+}
+
+.chatroom-content form input, .chatroom-content form input:hover {
+  outline: none;
+  border: 0px;
+  border-top: 1px solid #2d2d2d;
+}
+
+.chatroom-content form button {
+  width: 60px;
+  cursor: pointer;
+  background: rgb(232, 232, 74);
+  color: black;
+}

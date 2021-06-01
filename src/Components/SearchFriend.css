@@ -1,0 +1,68 @@
+.searchModal {
+  width: 100%;
+  height: 40px;
+  margin-top: -60px;
+  background: white;
+  box-sizing: border-box;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchModal .prevBtn {
+  cursor: pointer;
+}
+
+.searchModal .ul-row {
+  position: fixed;
+  top:0;
+  left: 0;
+  background: #efefef;
+  color: black;
+  border-radius: 0.5rem;
+  width: calc(100% - 2rem);
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.search-wrap {
+  flex-grow: 1;
+}
+
+.search-wrap input {
+  width: 90%;
+  margin: 0 1rem;
+}
+
+.search-wrap input, .search-wrap input:hover {
+  outline: none;
+  border: 0px;
+  background: none;
+}
+
+.search-result {
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.search-result {
+  
+}
+
+.result-list:last-child {
+  border-bottom: 0;
+}
+
+.result-list .thumb-img-s-normal {
+  margin-left: 0;
+}
+
+.result-list .text {
+  color:black;
+}

@@ -1,0 +1,76 @@
+.App {
+  margin-top: 60px;
+}
+
+div,
+ul,
+li,
+input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.ul-row {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #0f0f0f;
+}
+
+.li-row {
+  text-align: right;
+  font-size: 14px;
+}
+
+.li-row:nth-child(1) {
+  display: inline-block;
+  width: 120px;
+  flex-grow: 2;
+  text-align: left;
+  font-weight: bolder;
+
+}
+
+.li-row:nth-child(2),
+.li-row:nth-child(3),
+.li-row:nth-child(4),
+.li-row:nth-child(5) {
+  flex-grow: 1;
+}
+
+.ad-wrap {
+  width: 100%;
+  height: auto;
+  background: #0f0f0f;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.ad {
+  color: black;
+  background: white url('https://cdn.pixabay.com/photo/2017/05/19/06/22/desktop-2325627_1280.jpg') no-repeat top center/100%;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 0.8em;
+}
+
+.ad a {
+  display: block;
+}

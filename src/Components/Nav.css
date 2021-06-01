@@ -1,0 +1,40 @@
+a {
+  color: inherit;
+}
+
+.navMenuList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid #eee; */
+  background: #141414;
+  position: fixed;
+  bottom: 0;
+  opacity: 1;
+  z-index: 10;
+}
+
+.navMenuList::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.navMenuList li {
+  display: inline-block;
+  width: 20%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+  color: white;
+  font-size: 18px;
+}
+
+.navLink {
+  display: block;
+  height: 100%;
+}
