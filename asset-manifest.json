@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ccoccotalk/friends/static/css/main.7c117077.chunk.css",
-    "main.js": "/ccoccotalk/friends/static/js/main.7fec845d.chunk.js",
-    "main.js.map": "/ccoccotalk/friends/static/js/main.7fec845d.chunk.js.map",
-    "runtime-main.js": "/ccoccotalk/friends/static/js/runtime-main.af1cddbb.js",
-    "runtime-main.js.map": "/ccoccotalk/friends/static/js/runtime-main.af1cddbb.js.map",
-    "static/js/2.4921425f.chunk.js": "/ccoccotalk/friends/static/js/2.4921425f.chunk.js",
-    "static/js/2.4921425f.chunk.js.map": "/ccoccotalk/friends/static/js/2.4921425f.chunk.js.map",
-    "static/js/3.54e1273f.chunk.js": "/ccoccotalk/friends/static/js/3.54e1273f.chunk.js",
-    "static/js/3.54e1273f.chunk.js.map": "/ccoccotalk/friends/static/js/3.54e1273f.chunk.js.map",
-    "index.html": "/ccoccotalk/friends/index.html",
-    "static/css/main.7c117077.chunk.css.map": "/ccoccotalk/friends/static/css/main.7c117077.chunk.css.map",
-    "static/js/2.4921425f.chunk.js.LICENSE.txt": "/ccoccotalk/friends/static/js/2.4921425f.chunk.js.LICENSE.txt"
+    "main.css": "/ccoccotalk/static/css/main.7c117077.chunk.css",
+    "main.js": "/ccoccotalk/static/js/main.7fec845d.chunk.js",
+    "main.js.map": "/ccoccotalk/static/js/main.7fec845d.chunk.js.map",
+    "runtime-main.js": "/ccoccotalk/static/js/runtime-main.e8dae5e4.js",
+    "runtime-main.js.map": "/ccoccotalk/static/js/runtime-main.e8dae5e4.js.map",
+    "static/js/2.4921425f.chunk.js": "/ccoccotalk/static/js/2.4921425f.chunk.js",
+    "static/js/2.4921425f.chunk.js.map": "/ccoccotalk/static/js/2.4921425f.chunk.js.map",
+    "static/js/3.54e1273f.chunk.js": "/ccoccotalk/static/js/3.54e1273f.chunk.js",
+    "static/js/3.54e1273f.chunk.js.map": "/ccoccotalk/static/js/3.54e1273f.chunk.js.map",
+    "index.html": "/ccoccotalk/index.html",
+    "static/css/main.7c117077.chunk.css.map": "/ccoccotalk/static/css/main.7c117077.chunk.css.map",
+    "static/js/2.4921425f.chunk.js.LICENSE.txt": "/ccoccotalk/static/js/2.4921425f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.af1cddbb.js",
+    "static/js/runtime-main.e8dae5e4.js",
     "static/js/2.4921425f.chunk.js",
     "static/css/main.7c117077.chunk.css",
     "static/js/main.7fec845d.chunk.js"
